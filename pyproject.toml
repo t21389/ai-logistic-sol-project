@@ -1,0 +1,40 @@
+[project]
+name = "ai-logistic-sol-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12.13"
+dependencies = [
+    "altair==6.2.2",
+    "langchain-community==0.4.2",
+    "langchain-huggingface==1.2.2",
+    "langchain-openai==1.6.0",
+    "langchain-pinecone==0.2.13",
+    "langgraph==1.2.11",
+    "langgraph-checkpoint==4.2.0",
+    "langsmith==0.11.1",
+    "openai==3.3.1",
+    "openpyxl==3.1.5",
+    "pandas==3.0.5",
+    "pinecone==7.3.0",
+    "pydantic-settings==2.15.0",
+    "pypdf==6.16.2",
+    "python-dotenv==1.2.3",
+    "scikit-learn==1.9.0",
+    "sentence-transformers==6.0.0",
+    "sqlalchemy==2.0.52",
+    "streamlit==1.62.0",
+]
+
+[project.scripts]
+ai-logistic-sol-project = "ai_logistic_sol_project:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.uv]
+required-environments = [
+    "sys_platform == 'darwin' and platform_machine == 'x86_64'"
+]
+
