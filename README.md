@@ -4,7 +4,6 @@
 <img width="1263" height="755" alt="Screen Shot 2026-10-03 at 8 49 56 PM" src="https://github.com/user-attachments/assets/e03e3945-4e37-47fd-a561-93fa44c8a2c9" />
 
 
-Here is the complete, production-grade README.md file for your project in a single copy-paste code block:
 
 Markdown
 # 🧊 Cold-Chain Telemetry AI Agent & Dispatch Console
